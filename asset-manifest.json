@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kms192508/sujain.git/static/css/main.f855e6bc.css",
-    "main.js": "/kms192508/sujain.git/static/js/main.d845f529.js",
+    "main.css": "/kms192508/sujain.git/static/css/main.2344eaff.css",
+    "main.js": "/kms192508/sujain.git/static/js/main.8bcdae29.js",
     "index.html": "/kms192508/sujain.git/index.html",
-    "main.f855e6bc.css.map": "/kms192508/sujain.git/static/css/main.f855e6bc.css.map",
-    "main.d845f529.js.map": "/kms192508/sujain.git/static/js/main.d845f529.js.map"
+    "main.2344eaff.css.map": "/kms192508/sujain.git/static/css/main.2344eaff.css.map",
+    "main.8bcdae29.js.map": "/kms192508/sujain.git/static/js/main.8bcdae29.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d845f529.js"
+    "static/css/main.2344eaff.css",
+    "static/js/main.8bcdae29.js"
   ]
 }
