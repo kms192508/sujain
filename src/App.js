@@ -14,7 +14,7 @@ function App() {
     <div className='wrap'>
       <header className='header'>
         <div>
-          <h1 className='h_logo'><Link to='/'> 로고</Link></h1>
+          <h1 className='h_logo'><Link to='/'><img src={process.env.PUBLIC_URL+'/image/logo.png'} alt=''/></Link></h1>
           <nav className='h_nav' style={{display: 'flex', justifyContent: 'space-between'}}>
             <ul>
               <li><Link to='/component/brand'>브랜드</Link></li>
@@ -30,7 +30,7 @@ function App() {
           </ul>
         </div>
       </header>
-        <div>
+        <div >
           <Route path="/" exact={true} component={Home}/>
           <Route path="/component/brand" component={Brand}/>
           <Route path="/component/distribute" component={Distribute}/>
@@ -39,7 +39,7 @@ function App() {
           <Route path="/component/center" component={Center}/>
         </div>
         <footer className='footer'>
-          <h1 className='f_logo'>로고</h1>
+          <h1 className='f_logo'></h1>
           <nav className='f_nav'>
             <ul>
               <li><a href=''>이용약관</a></li>
