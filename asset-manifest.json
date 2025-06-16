@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kms192508/sujain.git/static/css/main.9e2d4dcb.css",
-    "main.js": "/kms192508/sujain.git/static/js/main.7fa87b8a.js",
+    "main.css": "/kms192508/sujain.git/static/css/main.dd78f29c.css",
+    "main.js": "/kms192508/sujain.git/static/js/main.487d49f2.js",
     "static/media/mainimg1.png": "/kms192508/sujain.git/static/media/mainimg1.76b2f68bc2666e0eda0d.png",
     "static/media/mainimg2.png": "/kms192508/sujain.git/static/media/mainimg2.e57cb4a69ad1ed536814.png",
     "static/media/mainimg4.png": "/kms192508/sujain.git/static/media/mainimg4.7e7b58a6e337411ea59f.png",
@@ -12,11 +12,11 @@
     "static/media/sub_con2.png": "/kms192508/sujain.git/static/media/sub_con2.d46141ac811c0889cad3.png",
     "static/media/sub_con3.png": "/kms192508/sujain.git/static/media/sub_con3.66069f9af95f554dd714.png",
     "index.html": "/kms192508/sujain.git/index.html",
-    "main.9e2d4dcb.css.map": "/kms192508/sujain.git/static/css/main.9e2d4dcb.css.map",
-    "main.7fa87b8a.js.map": "/kms192508/sujain.git/static/js/main.7fa87b8a.js.map"
+    "main.dd78f29c.css.map": "/kms192508/sujain.git/static/css/main.dd78f29c.css.map",
+    "main.487d49f2.js.map": "/kms192508/sujain.git/static/js/main.487d49f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e2d4dcb.css",
-    "static/js/main.7fa87b8a.js"
+    "static/css/main.dd78f29c.css",
+    "static/js/main.487d49f2.js"
   ]
 }
