@@ -2,12 +2,37 @@ import React from "react";
 import styled from 'styled-components';
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.min.css"
+import Distribute from "./distribute";
 
 const Mainimg = styled.div`
     width: 100%;
     height: 760px;
     background-image: url(../image/mainimg1.jpg);
     h1{font-size: 20px;}
+`
+const Sub_com0 = styled.div`
+    width: 100%;
+    height: 800px;
+    background-color: #a12sd;
+    display: flex;
+    justify-content: center;
+    .sub0_h{
+        width: 300px;
+        margin-top: 150px;
+        margin-right: 20px;
+        span{
+            display: block;
+        }
+    }
+    .sub0_b{
+        display: flex;
+    }
+    .sub0_b > div{
+        width: 300px;
+        height: 500px;
+        margin: 100px 10px;
+        border: 1px solid #ccc;
+    }
 `
 
 const Sub_com1 = styled.div`
@@ -33,8 +58,7 @@ const Sub_com2 = styled.div`
 
 const Sub_com3 = styled.div`
     width: 100%;
-    height: 500px;
-    background-color:rgb(196, 154, 18);
+    height: 400px;
 `
 
 
@@ -84,6 +108,32 @@ function Home(){
                     </Carousel.Item>
                 </Carousel>
             </Mainimg>
+            <Sub_com0 className="sub_com0">
+                <div className="sub0_h">
+                    <span>Information on apartment complexes</span>
+                    <h2>분양단지정보</h2>
+                    <hr/>
+                    <span>전체분양단지보기▶</span>
+                    <span>분양캘린더 보기▶</span>
+                </div>
+                <div className="sub0_b">
+                    <div>
+                        <img src="" alt="" />
+                        <span>2022년 5월</span>
+                        <h3>청량리역 한양수자인 아트포레스트</h3>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <span>2022년 5월</span>
+                        <h3>청량리역 한양수자인 아트포레스트</h3>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <span>2022년 5월</span>
+                        <h3>청량리역 한양수자인 아트포레스트</h3>
+                    </div>
+                </div>
+            </Sub_com0>
             <Sub_com1 className="sub_com1">
                     <div className="sub_com1-1">
                         MY 분양단지
@@ -125,14 +175,14 @@ function Home(){
                 </div>
             </Sub_com2>
             <Sub_com3 className="sub_com3">
-                <div>
-                    <div className="sub3_1"><img src="" alt="" />BS 뉴스룸</div>
-                    <div className="sub3_2"><img src="" alt="" />수자인 인스타그램</div>
-                    <div className="sub3_1"><img src="" alt="" />채널 BS</div>
+                <div className="sub3_t">
+                    <div className="sub3_1"><img src={process.env.PUBLIC_URL+"/image/news.png"} alt="" />BS 뉴스룸</div>
+                    <div className="sub3_2"><img src={process.env.PUBLIC_URL+"/image/insta.png"} alt="" />수자인 인스타그램</div>
+                    <div className="sub3_1"><img src={process.env.PUBLIC_URL+"/image/youtube.png"} alt="" />채널 BS</div>
                 </div>
-                <div>
-                    <div className="sub3_2"><img src="" alt="" />BS 블로그</div>
-                    <div className="sub3_1"><img src="" alt="" />수자인 카카오채널</div>
+                <div className="sub3_b">
+                    <div className="sub3_2"><img src={process.env.PUBLIC_URL+"/image/blog.jpg"} alt="" />BS 블로그</div>
+                    <div className="sub3_1"><img src={process.env.PUBLIC_URL+"/image/kakao.png"} alt="" />수자인 카카오채널</div>
                     <div className="sub3_2"></div>
                 </div>
             </Sub_com3>

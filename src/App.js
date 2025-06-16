@@ -40,6 +40,7 @@ function App() {
         </div>
         <footer className='footer'>
           <h1 className='f_logo'></h1>
+          <div>
           <nav className='f_nav'>
             <ul>
               <li><a href=''>이용약관</a></li>
@@ -47,10 +48,10 @@ function App() {
               <li><a href=''>개인정보취급방침</a></li>
             </ul>
             <ul>
-              <li><a href=''><img src=''/></a></li>
-              <li><a href=''><img src=''/></a></li>
-              <li><a href=''><img src=''/></a></li>
-              <li><a href=''><img src=''/></a></li>
+              <li><a href=''><img src={process.env.PUBLIC_URL+'/image/youtube.png'}/></a></li>
+              <li><a href=''><img src={process.env.PUBLIC_URL+'/image/insta.png'}/></a></li>
+              <li><a href=''><img src={process.env.PUBLIC_URL+'/image/blog.jpg'}/></a></li>
+              <li><a href=''><img src={process.env.PUBLIC_URL+'/image/kakao.png'}/></a></li>
             </ul>
           </nav>
           <hr/>
@@ -58,7 +59,7 @@ function App() {
           <span>본사:(우)22758인천광역시 서구 청라한내로 110, 13층 4-비(청라동, 청라파이낸스센터)</span>
           <p>서울사무소:(우)05836 서울특별시 송파구 법원로 11길 12(문정동) BS한양타워</p>
           <p>Copyrightⓒ BS HANYANG CORPORATION Co., Ltd.All rights reserved.</p>
-
+          </div>
         </footer>
     </div>
   );
