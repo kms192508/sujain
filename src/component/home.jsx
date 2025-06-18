@@ -16,6 +16,10 @@ const Sub_com0 = styled.div`
     background-color: #a12sd;
     display: flex;
     justify-content: center;
+    img{
+        width: 298px;
+        box-sizing: border-box;
+    }
     .sub0_h{
         width: 300px;
         margin-top: 150px;
@@ -118,17 +122,17 @@ function Home(){
                 </div>
                 <div className="sub0_b">
                     <div>
-                        <img src="" alt="" />
+                        <img src={process.env.PUBLIC_URL+"/image/view.jpg"} alt="" />
                         <span>2022년 5월</span>
                         <h3>청량리역 한양수자인 아트포레스트</h3>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        <img src={process.env.PUBLIC_URL+"/image/view.png"} alt="" />
                         <span>2022년 5월</span>
                         <h3>청량리역 한양수자인 아트포레스트</h3>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        <img src={process.env.PUBLIC_URL+"/image/view2.jpg"} alt="" />
                         <span>2022년 5월</span>
                         <h3>청량리역 한양수자인 아트포레스트</h3>
                     </div>
